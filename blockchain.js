@@ -75,7 +75,7 @@ function disp(){
 	console.log('Which function do you wish to perform?');
 	console.log('1. Enter data into the blockchain')
 	console.log('2. Obtain data from the blockchain')
-	console.log('3')
+	console.log('3. Exit')
 	console.log('[1/2/3]?')
 }
 disp();
