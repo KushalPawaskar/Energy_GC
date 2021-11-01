@@ -5,10 +5,15 @@ Running blockchain.js gives the user three options:
 2. Obtain data from the blockchain
 3. Exit
 
-(The code isn't complete yet hence it won't work properly)
 
-For running the program, following dependencies are required:
+
+For running the program, following are required:
 1. Node JS
 2. npm
 
-And also some libraries need to be installed via npm.
+Also some libraries are required.
+On running the code, you may get error if these libraries aren't installed.
+To install a particular library _x_, run `npm install x`
+
+[This program only includes blockchain part of the solution. 
+Rest of the solution did not get completed in time.]
