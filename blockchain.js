@@ -2,12 +2,6 @@
 
 const SHA256 = require('crypto-js/sha256');
 const prompt = require('prompt-sync')({sigint: true});
-const { exec } = require('child_process');
-var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date+' '+time;
-var fs = require('fs');
 
 class Block{
 	constructor(index, timestamp, data, previousHash = ''){
